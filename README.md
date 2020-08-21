@@ -16,11 +16,13 @@ There is also some work in R, such as the [XBRL package](https://cran.r-project.
 
 ## My Approach
 
-In order to understand the structure of XBRL tagged annual reports published as HTML or XHTML file, I set up a very basic linear parser which retrieves XBRL tagged content. Dependencies are kept to an absolute minimum. The aim is to show how to access relevant content. 
+In order to understand the structure of XBRL tagged annual reports published as HTML or XHTML file, I set up a very basic linear parser which retrieves XBRL tagged content. Dependencies are kept to an absolute minimum. The aim is to show how to access relevant content: 
 
-A locally stored HTML or XHTML file is loaded, XBRL tagged content is parsed, and tagged content is stored in a [CSV table](https://github.com/Bixi81/iXBRL/blob/master/myxbrltable.csv).
+- A locally stored HTML or XHTML file is loaded into BeautifulSoup
+- XBRL tagged content is parsed
+- Tagged content is stored in a [CSV table](https://github.com/Bixi81/iXBRL/blob/master/myxbrltable.csv).
 
-For testing, I used the annual report of [GLEIF](https://www.gleif.org/en/about/governance/annual-report/). I did not so much testing so far. 
+For testing, I used the annual report of [GLEIF](https://www.gleif.org/en/about/governance/annual-report/). I did not do much testing so far. 
 
 Find the Python code [here](https://github.com/Bixi81/iXBRL/blob/master/read_xbrl.py).
 
