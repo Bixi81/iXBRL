@@ -1,4 +1,4 @@
-# iXBRL Parser
+# Python iXBRL Parser
 
 Scrap/parse annual reports in iXBRL format from HTML or XHTML source to CSV table.
 
@@ -16,7 +16,7 @@ There is also some work in R, such as the [XBRL package](https://cran.r-project.
 
 ## My Approach
 
-In order to understand the structure of XBRL tagged annual reports published as HTML or XHTML file, I set up a very basic linear parser which retrieves XBRL tagged content. Dependencies are kept to an absolute minimum. The aim is to show how to access relevant content: 
+In order to understand the structure of XBRL tagged annual reports published as HTML or XHTML file, I set up a very basic linear parser in Python, which retrieves XBRL tagged content. Dependencies are kept to an absolute minimum. The aim is to show how to access relevant content: 
 
 - A locally stored HTML or XHTML file is loaded into BeautifulSoup
 - XBRL tagged content is parsed
