@@ -2,7 +2,7 @@ import re
 from dateutil import parser
 from bs4 import BeautifulSoup as BS  
 
-# Peter Heindl, August 2020
+# August 2020
 # Parse iXBRL reports, published as .html or .xhtml file from local
 # Minimal example: Use of imports is kept to an absolute minimum 
 # Tested on GLEIF annual report: https://www.gleif.org/en/about/governance/annual-report/
