@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup as BS
 # Tested on GLEIF annual report: https://www.gleif.org/en/about/governance/annual-report/
 
 # Define path and import html or xhtml from local
-mypath = "C:/Users/User/Dropbox/python/xbrl/"
+mypath = "C:/yourpath/xbrl/"
 
 # To read from online source just change this part
 soup = BS(open(mypath+"gleif-19ar.signed4.xhtml", "rb"), "html.parser")
