@@ -127,7 +127,7 @@ for c, element in enumerate(soup.find_all()):
         # Check if content is a number if true assign numerical value to separate variable
         numcontent = "0"
         try:
-            x=content.replace(",","").replace(".","")
+            x=content.replace(",","").replace(".","").replace("-","")
             if x.isdigit()==True: 
                 # If number... do formating
                 
