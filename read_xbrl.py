@@ -19,7 +19,7 @@ outFile = open(mypath+"myxbrltable.csv", 'w', newline='', encoding='utf8')
 outFile.write("position;tag;tagtype;content;numeric_content;unit;date1;date2;identi;dim;decimals;sign;form;scale \n")
 
 # Loop over elements in html/xhtml
-position = 1
+position = 0
 for c, element in enumerate(soup.find_all()):
     # Iterate over all XBLR content (identif. by "contextref")
     if "contextref" in element.attrs:
@@ -36,7 +36,7 @@ for c, element in enumerate(soup.find_all()):
         if "ifrs-full" in tag:
             tagtype="IFRS"
         else:
-            tagtype="costom"        
+            tagtype="custom"        
         tag = tag[tag.rfind(":")+1:]
 
         # Get content (text in tag)
