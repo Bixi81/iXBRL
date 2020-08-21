@@ -1,5 +1,4 @@
 import re
-from dateutil import parser
 from bs4 import BeautifulSoup as BS  
 
 # August 2020
