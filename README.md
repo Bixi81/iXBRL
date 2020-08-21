@@ -5,7 +5,7 @@ Scrap/parse annual reports in iXBRL format from HTML or XHTML source to CSV tabl
 ## What is XBRL
 
 - Some companies publish annual reports with [XBRL/iXBRL tags](https://en.wikipedia.org/wiki/XBRL) 
-- These tags essentially allow identification of certain positions in annual reports (machine readable)
+- These tags essentially allow identification of certain positions in annual reports ([machine readable](https://www.xbrl.org/the-standard/what/taxonomies/))
 - This allows for automated reading/parsing of annual reports in HTML or XHTML format to structured table data
 
 ## Related Work
