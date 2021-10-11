@@ -2,6 +2,8 @@
 
 Scrap/parse annual reports in iXBRL format from HTML or XHTML source to CSV table.
 
+Download ESEF filings from [https://filings.xbrl.org/](https://filings.xbrl.org/) using [this code.](https://github.com/Bixi81/iXBRL/blob/master/download_filings.py)
+
 ## What is XBRL
 
 - Some companies publish annual reports with [XBRL/iXBRL tags](https://en.wikipedia.org/wiki/XBRL)
